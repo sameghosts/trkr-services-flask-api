@@ -1,6 +1,14 @@
-from flask import Flask
-from flask import request
-from flask import json
+from flask import Flask, request, json
+import pandas as pd
+import numpy as np
+import re
+from sklearn.feature_extraction.text import TfidVectorizer
+from sklearn.feature_extraction.text import TfidfVectorizer
+from nltk.tokenize import sent_tokenize, word_tokenize, RegexpTokenizer
+from wordcloud import WordCloud, STOPWORDS
+from textblob import TextBlob, Word
+import string
+import sys
 #add rebeccas dependencies
 #add a dummy json object
 #try dummy import using posting
