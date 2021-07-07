@@ -9,8 +9,12 @@ from flask import request
 app = Flask(__name__)
 
 # Add app.route methods = POST
-
-
+@app.route("/")
+def hello():
+  return "Hello World"
+  
 #app .run
+if __name__ == "__main__":
+  app.run()
 
 
