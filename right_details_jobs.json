@@ -1,4 +1,4 @@
-[
+{"data": [
     {
         "title": "UX Designer",
         "company_name": "Nielsen",
@@ -392,4 +392,5 @@
         "job_id": "eyJqb2JfdGl0bGUiOiJVWCBEZXNpZ25lciIsImNvbXBhbnlfbmFtZSI6IlBhaWdlIiwiY29tcGFueV9taWQiOiIiLCJhZGRyZXNzX2NpdHkiOiJOZXcgWW9yayIsImFkZHJlc3Nfc3RhdGUiOiJOZXcgWW9yayIsImh0aWRvY2lkIjoiX2lfOWt0UUJzT2xndG1ZeEFBQUFBQT09IiwiaGwiOiJlbiIsImFwcGx5X2xpbmsiOnsidGl0bGUiOiJBcHBseSBvbiBHcmVlbmhvdXNlIiwibGluayI6Imh0dHBzOi8vYm9hcmRzLmdyZWVuaG91c2UuaW8vcGFpZ2Uvam9icy81MjUyNDcxMDAyP3V0bV9jYW1wYWlnbj1nb29nbGVfam9ic19hcHBseVx1MDAyNnV0bV9zb3VyY2U9Z29vZ2xlX2pvYnNfYXBwbHlcdTAwMjZ1dG1fbWVkaXVtPW9yZ2FuaWMifX0=",
         "thumbnail": null
     }
-]           
+]
+}           

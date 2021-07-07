@@ -95,7 +95,7 @@ def run_comparison (n1, n2):
 
 filename = sys.argv[1]
 
-df = pd.read_json(filename)
+df = pd.read_json('~/Users/seancemichael/Desktop/product_club/python-flask/trkr-SnS-flaskapi/right_details_jobs.json')
 
 custom_stopwords = create_stopwords(df)
 
