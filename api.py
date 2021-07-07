@@ -105,7 +105,7 @@ def nlp():
 
   filename = sys.argv[1]
 
-  df = pd.read_json(filename)
+  df = pd.read_json(r'right_details_jobs.json')
 
   custom_stopwords = create_stopwords(df)
 
