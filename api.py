@@ -100,7 +100,7 @@ def nlp():
     custom_tf_df = pd.DataFrame(data_custom_tf.toarray(), columns = custom_tf.get_feature_names())
     return top_words(data_custom_tf,custom_tf)
 
-  df = pd.read_json(r'/Users/seancemichael/Desktop/product_club/python-flask/trkr-SnS-flaskapi/right_details_jobs.json')
+  df = pd.read_json(r'~/Users/seancemichael/Desktop/product_club/python-flask/trkr-SnS-flaskapi/right_details_jobs.json')
 
   custom_stopwords = create_stopwords(df)
 
@@ -124,9 +124,13 @@ def nlp():
   #     json.dump(results, json_file)
   return "Hello from NLP"
 
-@app.route("/NLPdummy")
-def nlp_dumm(): 
-  
+@app.route("/NLPdummy", methods=["GET", "POST"])
+def nlp_dummy():
+  if request.method == "GET":
+    return "NLP Dummy will live here."
+  if request.method == "POST":
+    print(request.get_json())
+    return "Request JSON"
 #app .run
 if __name__ == "__main__":
   app.run()
